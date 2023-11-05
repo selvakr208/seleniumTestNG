@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MakeMyTrip Test Suite">
+
+	<test thread-count="5" name="Test">
+		<parameter name="departureDateInput" value="30 November 2023"></parameter>
+		<parameter name="returnDateInput" value="24 February 2024"></parameter>
+		<classes>
+			<class name="com.testcases.HomePageTest">
+			
+			</class>
+			
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
